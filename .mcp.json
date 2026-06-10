@@ -11,6 +11,31 @@
       "env": {
         "DUFFEL_API_KEY_LIVE": "${DUFFEL_API_KEY_LIVE}"
       }
+    },
+    "google-maps": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-maps"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+      }
+    },
+    "openweathermap": {
+      "command": "npx",
+      "args": ["-y", "@h1deya/mcp-server-weather"],
+      "env": {
+        "OPENWEATHER_API_KEY": "${OPENWEATHER_API_KEY}"
+      }
+    },
+    "exchange-rate": {
+      "command": "npx",
+      "args": ["-y", "exchange-rate-mcp"],
+      "env": {
+        "EXCHANGE_RATE_API_KEY": "${EXCHANGE_RATE_API_KEY}"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
     }
   }
 }
