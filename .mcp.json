@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "flights-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/clawliver/workspace/flights-mcp",
+        "run",
+        "flights-mcp"
+      ],
+      "env": {
+        "DUFFEL_API_KEY_LIVE": "${DUFFEL_API_KEY_LIVE}"
+      }
+    }
+  }
+}
